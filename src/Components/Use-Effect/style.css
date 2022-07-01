@@ -1,0 +1,17 @@
+.list {
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.list > li {
+    border: 1px solid black;
+    padding: 3px 5px;
+    width: 200px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+}
